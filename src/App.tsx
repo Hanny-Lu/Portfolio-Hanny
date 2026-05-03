@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   ArrowRight, 
@@ -330,7 +330,13 @@ export default function App() {
   );
 }
 
-function CaseStudyCard({ project, index }: { project: Project, index: number }) {
+interface CaseStudyCardProps {
+  project: Project;
+  index: number;
+  key?: React.Key;
+}
+
+function CaseStudyCard({ project, index }: CaseStudyCardProps) {
   const [imgError, setImgError] = useState(false);
 
   return (

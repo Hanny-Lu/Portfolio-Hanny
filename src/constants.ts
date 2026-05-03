@@ -62,7 +62,7 @@ export const PORTFOLIO_SECTIONS: PortfolioSection[] = [
         result: "Facilitated 60+ potential client resource exchanges per event and reached 900+ global industry leaders.",
         tags: ["Global Execution", "B2B Events", "Networking"],
         mediaType: 'image',
-        imageUrl: "input_file_0.png"
+        imageUrl: "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?q=80&w=2070&auto=format&fit=crop"
       }
     ]
   },
@@ -147,7 +147,7 @@ export const PORTFOLIO_SECTIONS: PortfolioSection[] = [
         result: "Achieved a 90% sales adoption rate of materials and supported 3-4 revision cycles per version to ensure message-market fit.",
         tags: ["Collateral", "SaaS Enablement", "Content"],
         mediaType: 'image',
-        imageUrl: "input_file_1.png"
+        imageUrl: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop"
       }
     ]
   }
